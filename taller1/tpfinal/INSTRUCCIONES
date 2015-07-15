@@ -1,0 +1,23 @@
+ACLARACION: el server debe ser ejecutado antes del cliente/admin
+
+En una terminal ejecutar 
+$ sudo chmod +x build.sh
+$ ./build.sh
+
+Luego, para ejecutar el server:
+$ sudo chmod +x run.sh
+$ ./run.sh server
+
+para ejecutar el cliente, en otra consola:
+$ sudo chmod +x run.sh
+$ ./run.sh client
+
+O si se quiere ejecutar el admin, en otra consola:
+$ sudo chmod +x run.sh
+$ ./run.sh admin
+Al ejecutar el administrador se le debe indicar el puerto '12345' y luego la ip "server_machine", la forma de hacerlo se indica en el manual del administrador.
+
+Luego ir a /home/src y seguir las instrucciones del readme para instalar el programa.
+Una vez instalado ejecutar la aplicacion correspondiente en cada una de las terminales.
+
+Instalacion de docker basada en: http://130.211.144.10/tecnica/docker-para-virtualizacion-de-trabajos/
